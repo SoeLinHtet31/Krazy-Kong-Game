@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    
+    <!-- Page Title -->
+    <title>Krazy Kong - Big Trip - Play-To-Earn Game</title>
+
+    <!-- Meta Data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <meta http-equiv="content-type" content="text/html; charset=utf-8" /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Play Kong and earn tokens as he explores various places and fights the inhabitants!" />
+    <meta name="keywords" content="Krazy Kong, Play To Earn Game" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://krazykong.monster/bigtrip">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Krazy Kong - Big Trip - Play-To-Earn Game">
+    <meta property="og:description" content="Play Kong and earn tokens as he explores various places and fights the inhabitants!">
+    <meta property="og:image" content="https://i.imgur.com/Y8FqskW.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://krazykong.monster/bigtrip">
+    <meta name="twitter:title" content="Krazy Kong - Big Trip - Play-To-Earn Game">
+    <meta name="twitter:description" content="Play Kong and earn tokens as he explores various places and fights the inhabitants!">
+    <meta name="twitter:image" content="https://i.imgur.com/Y8FqskW.png">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../build/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../build/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../build/images/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../build/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico" />
+
+    <script>
+        ; (function () {
+            var src = '//cdn.jsdelivr.net/npm/eruda';
+            if ((!window.location.href.includes("test")) && localStorage.getItem('active-eruda') != 'true') return;
+            document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+            document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+        })();
+    </script>
+
+    <script>
+        ; (function () {
+            document.write('<scr' + 'ipt src="build/main.js?' + Date.now() + ' "></scr' + 'ipt>'); // To work around cache
+        })();
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHFF3HRV2F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CHFF3HRV2F');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PCKNS8C');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+  <body>
+    <div id="unity-container" style = " width : 100% ; height : 100% ;">
+      <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-fullscreen-button" style="position: absolute;  bottom: 0;  right: 0;"></div>
+      </div>
+    </div>
+    <script src="web3/index.js"></script>
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? '' : '';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == '') div.style = '';
+        else {
+          if (type == '') div.style = '';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Web.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/Web.data",
+        frameworkUrl: buildUrl + "/Web.framework.js",
+        codeUrl: buildUrl + "/Web.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Krazy Kong Play To Earn Game",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        // Avoid draining fillrate performance on mobile devices,
+        // and default/override low DPI mode on mobile browsers.
+        config.devicePixelRatio = 1;
+        unityShowBanner('WELCOME TO KRAZY KONG MONSTER');
+      } else {
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+      }
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };          
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+
+    </script>
+  </body>
+</html>

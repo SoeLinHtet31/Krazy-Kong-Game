@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Background
+  - Enemy
+  - Gate
+  - FallDetector
+  - CheckPoint
+  - Boss
+  - Hitable
+  - SecondStageEnemies
+  - StartingWall
+  - Sitting Place
+  - PlayerRange
+  - Stage2MeleeEnemy
+  - FireTrigger
+  - BloodTrigger
+  - TorretEnemy
+  - Fire
+  - Wall
+  - Character
+  - EnemyAttack
+  - PlayerAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Ground
+  - 
+  - Enemy
+  - Boss
+  - Gate
+  - Wall
+  - Player
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3109274559
+    locked: 0
+  - name: UI
+    uniqueID: 2696757765
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1462977359
+    locked: 0
+  - name: Ground
+    uniqueID: 528510837
+    locked: 0
+  - name: Kongs
+    uniqueID: 73860997
+    locked: 0
+  - name: Items
+    uniqueID: 54538049
+    locked: 0
+  - name: Enemy
+    uniqueID: 775195685
+    locked: 0
+  - name: Boss
+    uniqueID: 3485587551
+    locked: 0
+  - name: Player
+    uniqueID: 2629322583
+    locked: 0
+  - name: Slot
+    uniqueID: 2136090653
+    locked: 0
+  - name: Slot 1
+    uniqueID: 3039758091
+    locked: 0
+  - name: Slot 2
+    uniqueID: 3370219217
+    locked: 0
+  - name: Slot 3
+    uniqueID: 624381325
+    locked: 0
+  - name: Slot 4
+    uniqueID: 4160864547
+    locked: 0
+  - name: Slot 5
+    uniqueID: 1866342091
+    locked: 0
+  - name: PlayerRange
+    uniqueID: 313126237
+    locked: 0

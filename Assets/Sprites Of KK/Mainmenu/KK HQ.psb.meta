@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 839ec2c4e53afe746913c59ab7d4b81f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: KK HQ Part 3_preview_rev_1 (1)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 416
+      width: 16
+      height: 84
+    spriteID: 3fee61aae2e43974fa1df75e1de35c89
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -676, y: 135}
+  - name: KK HQ Part 2_preview_rev_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 328
+      width: 67
+      height: 80
+    spriteID: d16b4da9fb32c6e46b94f6bcdfcbfc8d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -636, y: 58}
+  - name: KK HQ Car_preview_rev_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 248
+      width: 124
+      height: 71
+    spriteID: 3316d24de5c2828498b2c30628c65702
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -522, y: -37}
+  - name: KK HQ Part 3_preview_rev_1 (1) copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 416
+      width: 16
+      height: 84
+    spriteID: a3541297cf2d56e43983e31ec30a2807
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -747, y: 92}
+  - name: KK HQ Part_preview_rev_1 (1)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 248
+      width: 144
+      height: 72
+    spriteID: 3006201ee0eee874bbd40a50febfd1c6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -662, y: -88}
+  - name: KK HQ Part 2_preview_rev_1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 328
+      width: 67
+      height: 80
+    spriteID: dc313fc88caa7dd448f24e4d601770cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -681, y: 8}
+  - name: KK HQ Part 4_preview_rev_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 328
+      width: 76
+      height: 69
+    spriteID: 786d47a8f6933a044a2f5092cffe4325
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -383, y: -176}
+  - name: KK HQ Part 5_preview_rev_1 (1)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 328
+      width: 77
+      height: 69
+    spriteID: 4eb55f8f16dc1184a97fb9cb37c3892f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -459, y: -128}
+  - name: KK HQ Base_preview_rev_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 325
+      height: 236
+    spriteID: 7067f59566d31014585fe3ccbfd46fec
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -471, y: -274}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 1280, y: 720}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: KK HQ Part 3_preview_rev_1 (1)
+    spriteName: KK HQ Part 3_preview_rev_1 (1)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3fee61aae2e43974fa1df75e1de35c89
+    layerID: 8
+    mosaicPosition: {x: 4, y: 416}
+  - name: KK HQ Part 2_preview_rev_1
+    spriteName: KK HQ Part 2_preview_rev_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d16b4da9fb32c6e46b94f6bcdfcbfc8d
+    layerID: 10
+    mosaicPosition: {x: 4, y: 328}
+  - name: KK HQ Car_preview_rev_1
+    spriteName: KK HQ Car_preview_rev_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3316d24de5c2828498b2c30628c65702
+    layerID: 11
+    mosaicPosition: {x: 156, y: 248}
+  - name: KK HQ Part 3_preview_rev_1 (1) copy
+    spriteName: KK HQ Part 3_preview_rev_1 (1) copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a3541297cf2d56e43983e31ec30a2807
+    layerID: 14
+    mosaicPosition: {x: 28, y: 416}
+  - name: KK HQ Part_preview_rev_1 (1)
+    spriteName: KK HQ Part_preview_rev_1 (1)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3006201ee0eee874bbd40a50febfd1c6
+    layerID: 9
+    mosaicPosition: {x: 4, y: 248}
+  - name: KK HQ Part 2_preview_rev_1 copy
+    spriteName: KK HQ Part 2_preview_rev_1 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dc313fc88caa7dd448f24e4d601770cd
+    layerID: 13
+    mosaicPosition: {x: 79, y: 328}
+  - name: KK HQ Part 4_preview_rev_1
+    spriteName: KK HQ Part 4_preview_rev_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 786d47a8f6933a044a2f5092cffe4325
+    layerID: 6
+    mosaicPosition: {x: 239, y: 328}
+  - name: KK HQ Part 5_preview_rev_1 (1)
+    spriteName: KK HQ Part 5_preview_rev_1 (1)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4eb55f8f16dc1184a97fb9cb37c3892f
+    layerID: 4
+    mosaicPosition: {x: 154, y: 328}
+  - name: KK HQ Base_preview_rev_1
+    spriteName: KK HQ Base_preview_rev_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7067f59566d31014585fe3ccbfd46fec
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: KK HQ Texture
+  prefabAssetName: KK HQ Prefab
+  spriteLibAssetName: KK HQ Sprite Lib
+  secondarySpriteTextures: []
